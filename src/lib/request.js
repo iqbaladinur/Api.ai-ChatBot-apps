@@ -1,7 +1,7 @@
 import axios from 'axios';
 import moment from 'moment';
 
-const BASE_API_URL = 'http://apiaichat.azurewebsites.net/';
+const BASE_API_URL = 'https://apiaichat.azurewebsites.net/';
 
 export const ask = question => {
 	const payload = {question : question};
