@@ -1,7 +1,7 @@
 import axios from 'axios';
 import moment from 'moment';
 
-const BASE_API_URL = 'http://localhost:5000/';
+const BASE_API_URL = 'https://localhost:5000/';
 
 export const ask = question => {
 	const payload = {question : question};
